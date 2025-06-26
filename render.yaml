@@ -3,11 +3,7 @@ services:
     name: Rails
     env: ruby
     plan: free
-    buildCommand: |
-      gem install bundler -v 2.4.22
-      bundle config set force_ruby_platform true
-      bundle install
-      bundle exec rake db:migrate
+    buildCommand: "bundle install && bundle exec rake db:migrate"
     startCommand: bundle exec puma -C config/puma.rb
     envVars:
       - key: CLIENT_ID
