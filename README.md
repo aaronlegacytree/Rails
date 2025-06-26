@@ -215,11 +215,11 @@ Which should look something like this on the frontend:
 
 ### Prerequisites
 
-- Ruby 3.0.1
+- Ruby 3.2.2
 
-  - `rvm install "ruby-3.0.1"`
+  - `rvm install "ruby-3.2.2"`
 
-  - `rvm use "ruby-3.0.1"`
+  - `rvm use "ruby-3.2.2"`
 
 - Postgres database
 

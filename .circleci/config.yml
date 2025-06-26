@@ -12,7 +12,7 @@ references:
     PGPASSWORD: &pgpassword "docker"
 
   docker_ruby_base: &docker_ruby_base
-    image: circleci/ruby:3.0.1
+    image: circleci/ruby:3.2.2
 
   docker_postgres_base: &docker_postgres_base
     image: circleci/postgres:13.2-ram
