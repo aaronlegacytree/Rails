@@ -1,6 +1,6 @@
 FROM ruby:3.2.2-slim
 
-ENV BUNDLE_VERSION=2.2.32
+
 
 RUN apt-get update -qq \
     && apt-get install -y git build-essential libpq-dev
