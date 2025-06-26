@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: Rails
+    env: ruby
+    plan: free
+    buildCommand: |
+      gem install bundler -v 2.4.22
+      bundle config set force_ruby_platform true
+      bundle install
+      bundle exec rake db:migrate
+    startCommand: bundle exec puma -C config/puma.rb
+    envVars:
+      - key: CLIENT_ID
+        value: c9fbdbf8-e402-4b0d-b245-e70884b7ccff
+      - key: CLIENT_SECRET
+        value: 170ca7e8550e49c630d00f9dc7a6c000f3068bc61a3a83f85a26df343a69a729
+      - key: REDIRECT_URI
+        value: https://rails-rsdn.onrender.com/api/auth/callback/jobber
