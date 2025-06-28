@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ClientsController < ApplicationController
-  implements Graphql::Queries::Clients
+include Graphql::Queries::Clients
 
   def index
     token = @jobber_account.jobber_access_token
