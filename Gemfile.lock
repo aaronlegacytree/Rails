@@ -61,6 +61,7 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     ast (2.4.2)
+    base64 (0.3.0)
     bootsnap (1.15.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -100,6 +101,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -127,6 +129,7 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
+    ostruct (0.6.2)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
@@ -240,6 +243,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base64
   bootsnap (>= 1.4.4)
   byebug
   dotenv-rails
@@ -248,8 +252,10 @@ DEPENDENCIES
   graphql
   graphql-client
   listen (~> 3.3)
+  logger
   net-smtp
   oauth2 (= 1.4.9)
+  ostruct
   pg (~> 1.1)
   pry-rails
   puma (~> 5.0)
