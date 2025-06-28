@@ -116,6 +116,7 @@ GEM
     msgpack (1.5.6)
     multi_json (1.15.0)
     multi_xml (0.6.0)
+    mutex_m (0.3.0)
     nio4r (2.5.8)
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
@@ -250,6 +251,7 @@ DEPENDENCIES
   graphql-client
   listen (~> 3.3)
   logger
+  mutex_m
   oauth2 (= 1.4.9)
   ostruct
   pg (~> 1.1)
