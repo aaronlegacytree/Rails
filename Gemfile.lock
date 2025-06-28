@@ -100,6 +100,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -243,6 +244,7 @@ DEPENDENCIES
   graphql
   graphql-client
   listen (~> 3.3)
+  logger
   oauth2 (= 1.4.9)
   pg (~> 1.1)
   pry-rails
@@ -261,4 +263,4 @@ RUBY VERSION
    ruby 3.4.1p64
 
 BUNDLED WITH
-   2.2.32
+   2.6.9
