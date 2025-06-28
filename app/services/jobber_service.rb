@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class JobberService
-include Graphql::Queries::Account
+implements Graphql::Queries::Account
 
   def execute_query(token, query, variables = {}, expected_cost: nil)
     context = { Authorization: "Bearer #{token}" }
