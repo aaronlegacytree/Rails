@@ -67,6 +67,6 @@ module JobberAppTemplateRailsApi
   #
   # Run it from a script or rake task: rake schema:update
   # GraphQL::Client.dump_schema(JobberAppTemplateRailsApi::HTTP, "db/schema.json")
-  Schema = GraphQL::Client.load_schema("db/schema.json")
+  # Schema = GraphQL::Client.load_schema("db/schema.json")
   Client = GraphQL::Client.new(schema: Schema, execute: HTTP)
 end
