@@ -167,7 +167,7 @@ end
 ```ruby
 # app/controllers/clients_controller.rb
 class ClientsController < AuthController
-  implements Graphql::Queries::Clients
+  lnclude Graphql::Queries::Clients
 
   def index
     token = @jobber_account.jobber_access_token
