@@ -53,6 +53,7 @@ group :development do
   # Static code analyzer and code formatter
   gem "rubocop", require: false
   gem "rubocop-shopify", require: false
+  gem "ruby-lsp"
 end
 
 group :test do
