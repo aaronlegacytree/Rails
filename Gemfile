@@ -64,6 +64,7 @@ gem "base64"
 gem "ostruct"
 gem "logger"
 gem "bigdecimal"
+gem "mutex_m"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

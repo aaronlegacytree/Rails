@@ -116,6 +116,7 @@ GEM
     msgpack (1.5.6)
     multi_json (1.15.0)
     multi_xml (0.6.0)
+    mutex_m (0.3.0)
     net-protocol (0.2.2)
       timeout
     net-smtp (0.5.1)
@@ -255,6 +256,7 @@ DEPENDENCIES
   graphql-client
   listen (~> 3.3)
   logger
+  mutex_m
   net-smtp
   oauth2 (= 1.4.9)
   ostruct
