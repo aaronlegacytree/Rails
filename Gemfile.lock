@@ -62,6 +62,7 @@ GEM
       zeitwerk (~> 2.3)
     ast (2.4.2)
     base64 (0.3.0)
+    benchmark (0.4.1)
     bigdecimal (3.2.2)
     bootsnap (1.15.0)
       msgpack (~> 1.2)
@@ -246,6 +247,7 @@ PLATFORMS
 
 DEPENDENCIES
   base64
+  benchmark
   bigdecimal
   bootsnap (>= 1.4.4)
   byebug
